@@ -1,0 +1,49 @@
+172.16.0.0/14,us-east-1 region
+172.16.0.0/17,-
+172.16.0.0/18,prod-svcs VPC
+172.16.0.0/24,primary prod-svcs subnet
+172.16.1.0/24,secondary prod-svcs subnet
+172.16.128.0/17,-
+172.16.128.0/18,stage-svcs VPC
+172.16.128.0/24,primary stage-svcs subnet
+172.16.129.0/24,secondary stage-svcs subnet
+172.17.0.0/17,-
+172.17.0.0/18,prod-app VPC
+172.17.0.0/24,primary prod-app subnet
+172.17.1.0/24,secondary prod-app subnet
+172.17.128.0/17,-
+172.17.128.0/18,stage-app VPC
+172.17.128.0/24,primary stage-app subnet
+172.17.129.0/24,secondary stage-app subnet
+172.18.0.0/18,production corporate account
+172.18.0.0/20,prod-corp VPC
+172.18.0.0/25,AAA
+172.18.0.128/25,BBB
+172.18.16.0/20,vpn prod-corp VPC
+172.18.16.0/25,-
+172.18.16.128/25,
+172.18.64.0/18,development/staging corporate account
+172.18.64.0/20,stage-corp VPC
+172.18.64.0/25,-
+172.18.64.128/25,-
+172.18.80.0/20,vpn stage-corp VPC
+172.18.80.0/25,-
+172.18.80.128/25,-
+172.18.128.0/18,cloudtrail account
+172.18.128.0/20,dflt-cldtrl VPC
+172.18.128.0/25,-
+172.18.160.0/19,-
+172.18.160.0/20,dev-svcs VPC
+172.18.160.0/25,-
+172.18.192.0/19,-
+172.18.192.0/20,dev-app VPC
+172.18.192.0/25,-
+172.18.192.128/25,-
+172.18.224.0/19,-
+172.18.224.0/20,test-corp VPC
+172.18.224.0/25,-
+172.18.224.128/25,-
+172.19.0.0/19,-
+172.19.0.0/20,test-hday VPC
+172.19.192.0/25,-
+172.19.192.128/25,-
